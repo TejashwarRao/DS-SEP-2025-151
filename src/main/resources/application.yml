@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+# Database Configuration (MySQL)
+spring:
+  datasource:
+    # 'tripdb' is the database name. createDatabaseIfNotExist=true will create it if it doesn't exist.
+    url: jdbc:mysql://localhost:3306/tripdb?createDatabaseIfNotExist=true
+    username: root
+    password: asgardian # <<< CHANGE THIS!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  
+  jpa:
+    hibernate:
+      # 'update' attempts to match the DB schema to your JPA @Entity classes (like Trip.java)
+      ddl-auto: update
+    show-sql: true # Log SQL queries to the console
+    properties:
+      hibernate:
+        format_sql: true
+
+# Swagger/OpenAPI Configuration
+# Access documentation at http://localhost:8080/swagger-ui.html
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

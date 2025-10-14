@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------------- #
+# 1. Build Artifacts (Maven Output)
+# ---------------------------------------------------------------------- #
+# Maven's default output directory (where the .jar is created)
+/target/
+# Compiled package files
+*.jar
+*.war
+# Maven cache
+/.mvn/wrapper/maven-wrapper.jar
+
+# ---------------------------------------------------------------------- #
+# 2. IDE and Editor Files (Local Settings)
+# ---------------------------------------------------------------------- #
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code (Used for local workspace configuration)
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+/bin/
+
+# ---------------------------------------------------------------------- #
+# 3. Operating System & Logs
+# ---------------------------------------------------------------------- #
+.DS_Store
+Thumbs.db
+*.log
+log/
