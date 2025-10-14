@@ -1,3 +1,4 @@
+
 🚀 Getting Started
 1. Prerequisites
 Ensure the following tools are installed on your development machine:
@@ -66,3 +67,4 @@ trip-app/
 │   ├── application.yml     # Spring Configuration & Database Credentials
 │   └── tripdb.sql          # Database Initialization Script (Deliverable)
 └── pom.xml   
+
