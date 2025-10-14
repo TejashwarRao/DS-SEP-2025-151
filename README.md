@@ -102,4 +102,4 @@ tripapp/
 │               └── service/             # Unit Tests (TripServiceTest.java)
 └── pom.xml                              # Maven Configuration File
 ```
-### Visiualization or reports
+
