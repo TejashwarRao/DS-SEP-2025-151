@@ -102,4 +102,25 @@ tripapp/
 │               └── service/             # Unit Tests (TripServiceTest.java)
 └── pom.xml                              # Maven Configuration File
 ```
+### 5. 🖼️ Visual Verification and Report
+
+The following images serve as a visual report, confirming the successful documentation and error handling of the application.
+
+### Trip Management API Overview
+
+The Swagger UI successfully documents all required endpoints, confirming API readiness.
+
+![Swagger UI Endpoints Overview](assets/outputformat.png)
+
+### Successful GET Endpoint Example
+
+This image demonstrates the structure of the `GET /api/trips/{id}` endpoint and the expected response schema.
+
+![Successful GET Operation Structure](assets/GEToperation.png)
+
+### Resource Not Found Exception Handling
+
+Testing the `GET /api/trips/{id}` endpoint with an invalid ID correctly triggers the **`404 Not Found`** exception, demonstrating robust error handling.
+
+![404 Not Found Exception Handler Output](assets/useGET.png)
 
